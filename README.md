@@ -1,7 +1,7 @@
 <h2> Hey there! I'm Skopea. 😉 </h2>
 
 ```
-const - Skopea @@ = {
+const Skopea  = {
     learning: ["Symfony", "OOP PHP", "React"],
     technologies: {
         mobileApp: ["Android, iOS"],
