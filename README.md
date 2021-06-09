@@ -7,6 +7,6 @@
 - 💼 &nbsp; Trainee Software Enigineer at Leviy.
 - 🌱 &nbsp; Enthusiast in OOP developmenmt.
 - 🎮 &nbsp; Watching Anime and gaming.
-- ☕ &nbsp; I belive, a perfect cup of coffee can be the ultimate solution for any stress. 
+- ☕ &nbsp; I believe, a perfect cup of coffee can be the ultimate solution for any stress. 
 
 ⭐️ From [Skopea](https://github.com/Skopea)
