@@ -2,7 +2,7 @@
 
 <h3> About me </h3>
 
-- 🤔 &nbsp; Exploring new technologies and developing software solutions and quick hacks.
+- 🤔 &nbsp; Exploring new technologies and developing software solutions.
 - 🎓 &nbsp; Finished study of computer sience.
 - 💼 &nbsp; Trainee Software Enigineer at [Leviy](https://leviy.com/).
 - 🌱 &nbsp; Enthusiast in learning OOP development.
