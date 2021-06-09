@@ -1,6 +1,6 @@
 <h2> Hey there! I'm Skopea. 😉</h2>
 
-<h3> About me </h3>
+<h3> About me! </h3>
 
 - 🤔 &nbsp; Exploring new technologies and developing software solutions.
 - 🎓 &nbsp; Finished study of computer sience.
