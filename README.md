@@ -6,7 +6,7 @@
 - 🎓 &nbsp; Finished study of computer sience.
 - 💼 &nbsp; Trainee Software Enigineer at [Leviy](https://leviy.com/).
 - 🌱 &nbsp; Enthusiast in learning OOP development.
-- 🎮 &nbsp; Watching Anime and gaming.
+- 🎮 &nbsp; Watching anime and gaming is what I live for.
 - ☕ &nbsp; I believe, a perfect cup of coffee can be the ultimate solution for any stress. 
 
 ⭐️ From [Skopea](https://github.com/Skopea)
