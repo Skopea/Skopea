@@ -1,4 +1,4 @@
-<h2> Hey there! I'm Skopea. 😉 <img href="https://semi-tech.nl/img/imageTab.png"></img</h2>
+<h2> Hey there! I'm Skopea. 😉 ![alt text](https://semi-tech.nl/img/imageTab.png)</h2>
 
 <h3> About me! </h3>
 
