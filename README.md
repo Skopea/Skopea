@@ -25,6 +25,6 @@ const Skopea = {
 > 💼 &nbsp; Trainee Software Engineer at [Leviy](https://leviy.com/). <br>
 > 🌱 &nbsp; Enthusiast in learning new developments. <br>
 > 🎮 &nbsp; Watching anime and gaming is what I live for. <br>
-> ☕ &nbsp; I believe a perfect cup of coffee can be the ultimate solution for any stress. <br>
+> ☕ &nbsp; I believe a perfect cup of coffee can be the ultimate solution for any stress <br>
 
 ⭐️ From [Skopea](https://github.com/Skopea)
