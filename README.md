@@ -2,7 +2,7 @@
 
 ```
 const Skopea = {
-    learning: ["Symfony", "OOP PHP", "React"],
+    learning: ["Symfony", "Event Sourcing", "React"],
     technologies: {
         mobileApp: ["Android, iOS"],
         frontEnd: {
