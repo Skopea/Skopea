@@ -2,14 +2,14 @@
 
 ```
 const Skopea = {
-    learning: ["Symfony", "Event Sourcing", "React"],
+    learning: ["React"],
     technologies: {
         mobileApp: ["Android, iOS"],
         frontEnd: {
             languages: ["HTML5", "jQuery", "CSS", "Javascript", "SASS"]
         },
         backEnd: {
-            languages: ["PHP", "C#"]
+            languages: ["PHP", "Symfony"]
         },
         databases: ["MongoDB", "MySql"],
         misc: ["Microsoft Office", "Boostrap", "Premiere Pro", "Photoshop", "Wordpress", "Scrum"]
