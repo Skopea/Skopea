@@ -4,12 +4,12 @@
 const Skopea = {
     learning: ["React"],
     technologies: {
-        mobileApp: ["Android, iOS"],
+        mobileApp: ["Android, iOS", "Cordova"],
         frontEnd: {
-            languages: ["HTML5", "jQuery", "CSS", "Javascript", "SASS"]
+            languages: ["HTML5", "jQuery", "CSS", "Javascript", "Typescript"]
         },
         backEnd: {
-            languages: ["PHP", "Symfony"]
+            languages: ["PHP", "C#"]
         },
         databases: ["MongoDB", "MySql"],
         misc: ["Microsoft Office", "Boostrap", "Premiere Pro", "Photoshop", "Wordpress", "Scrum"]
