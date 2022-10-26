@@ -6,10 +6,10 @@ const Skopea = {
     technologies: {
         mobileApp: ["Android, iOS", "Cordova"],
         frontEnd: {
-            languages: ["HTML5", "jQuery", "CSS", "Javascript", "Typescript"]
+            languages: ["HTML5", "jQuery", "CSS", "Typescript"]
         },
         backEnd: {
-            languages: ["PHP", "C#"]
+            languages: ["PHP", "Javascript"]
         },
         databases: ["MongoDB", "MySql"],
         misc: ["Microsoft Office", "Boostrap", "Premiere Pro", "Photoshop", "Wordpress", "Scrum"]
