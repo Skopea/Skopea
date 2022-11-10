@@ -27,6 +27,6 @@ const Skopea = {
 > 🎮 &nbsp; Watching anime and gaming is what I live for. <br>
 > ☕ &nbsp; I believe a perfect cup of coffee can be the ultimate solution for any stress. <br>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Skopea&count_private=true)](https://media.tenor.com/Hntke7HWHhIAAAAC/wave-anime.gif)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Skopea&show_icons=true&theme=monokai&count_private=true)](https://media.tenor.com/Hntke7HWHhIAAAAC/wave-anime.gif)
 
 ⭐️ From [Skopea](https://github.com/Skopea)
