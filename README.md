@@ -14,7 +14,8 @@ const Skopea = {
         databases: ["MongoDB", "MySql"],
         misc: ["Microsoft Office", "Boostrap", "Premiere Pro", "Photoshop", "Wordpress", "Scrum"]
     },
-    funFact: "There are two ways to write error-free programs; only the third one works"
+    funFact: "There are two ways to write error-free programs; only the third one works",
+    smallBio: "Full Stack Developer passionate about creating efficient, user-friendly web applications that drive business success."
 };
 ```
 
