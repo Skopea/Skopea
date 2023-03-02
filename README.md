@@ -1,7 +1,7 @@
 <h2> Hey there! I'm Skopea. 😉 </h2>
 
 ```
-const Skopea = {
+const Skopea: Semi = {
     learning: ["React"],
     technologies: {
         mobileApp: ["Android, iOS", "Cordova"],
