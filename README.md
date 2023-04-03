@@ -13,7 +13,8 @@ const Skopea: Semi = {
       library: "jQuery"
     },
     backEnd: {
-      languages: ["PHP", "JavaScript"]
+      languages: ["PHP", "JavaScript", TypeScript],
+      framework: "Symfony"
     },
     databases: ["MongoDB", "MySQL"],
     tools: ["Bootstrap", "WordPress"],
