@@ -21,13 +21,12 @@ const Skopea: Semi = {
 
 <h3> About me! </h3>
 
-> 🤔 &nbsp; Exploring new technologies and developing software solutions. <br>
+> 🌱 &nbsp; Exploring new technologies and developing software solutions. <br>
 > 🎓 &nbsp; Finished study of computer sience. <br>
 > 🌊 &nbsp; Software Engineer at [Leviy](https://leviy.com/). <br>
-> 💪️ &nbsp; Absolute Gym Freak. <br> 
-> 🌱 &nbsp; Enthusiast in learning new developments. <br>
-> 🎮 &nbsp; Watching anime and gaming is what I live for. <br>
-> ☕ &nbsp; I believe a perfect cup of coffee can be the ultimate solution for any stress. <br>
+> 💪️ &nbsp; Fitness Enthousiast. <br> 
+> 🎮 &nbsp; My greatest source of enjoyment and fulfillment comes from indulging in anime and gaming activities. <br>
+> ☕ &nbsp; In my opinion, a well-crafted cup of coffee has the potential to serve as the ultimate remedy for stress and tension. <br>
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Skopea&show_icons=true&theme=codeSTACKr&count_private=true)](https://media.tenor.com/Hntke7HWHhIAAAAC/wave-anime.gif)
 
