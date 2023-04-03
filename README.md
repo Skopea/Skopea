@@ -2,20 +2,29 @@
 
 ```
 const Skopea: Semi = {
-    learning: ["React"],
-    technologies: {
-        mobileApp: ["Android, iOS", "Cordova"],
-        frontEnd: {
-            languages: ["HTML5", "jQuery", "CSS", "Typescript"]
-        },
-        backEnd: {
-            languages: ["PHP", "Javascript"]
-        },
-        databases: ["MongoDB", "MySql"],
-        misc: ["Microsoft Office", "Boostrap", "Premiere Pro", "Photoshop", "Wordpress", "Scrum"]
+  learning: ["React", "Infrastructure Monitoring", "Software Design & Architecture"],
+  technologies: {
+    mobileApp: {
+      platforms: ["Android", "iOS"],
+      framework: "Cordova"
     },
-    funFact: "There are two ways to write error-free programs; only the third one works",
-    smallBio: "Full Stack Developer passionate about creating efficient, user-friendly web applications that drive business success."
+    frontEnd: {
+      languages: ["HTML5", "CSS", "TypeScript"],
+      library: "jQuery"
+    },
+    backEnd: {
+      languages: ["PHP", "JavaScript"]
+    },
+    databases: ["MongoDB", "MySQL"],
+    tools: ["Bootstrap", "WordPress"],
+  },
+  misc: {
+    videoEditing: ["Premiere Pro"],
+    imageEditing: ["Photoshop"],
+    methodology: ["Scrum", "Agile"],
+  },
+  funFact: "There are only two hard things in Computer Science: cache invalidation and naming things.",
+  bio: "Full Stack Developer passionate about creating efficient, user-friendly web applications that drive business success."
 };
 ```
 
