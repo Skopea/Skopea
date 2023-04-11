@@ -36,7 +36,7 @@ const Skopea: Semi = {
 > 🌊 &nbsp; Software Engineer at [Leviy](https://leviy.com/). <br>
 > 💪️ &nbsp; Fitness Enthousiast. <br> 
 > 🎮 &nbsp; My greatest source of enjoyment and fulfillment comes from indulging in anime and gaming activities. <br>
-> ☕ &nbsp; In my opinion, a well-crafted cup of coffee has the potential to serve as the ultimate remedy for stress and tension. <br>
+> ☕ &nbsp; In my opinion, a well-crafted cup of coffee has the potential to serve as the ultimate remedy for stress and tension. (I don't even drink coffee) <br>
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Skopea&show_icons=true&theme=codeSTACKr&count_private=true)](https://media.tenor.com/Hntke7HWHhIAAAAC/wave-anime.gif)
 
