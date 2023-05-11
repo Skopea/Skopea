@@ -2,7 +2,7 @@
 
 ```
 const Skopea: Semi = {
-  learning: ["React/TypeScript", "Infrastructure Monitoring", "Software Design & Architecture"],
+  learning: ["React/Vue.js/TypeScript", "Infrastructure Monitoring", "Software Design & Architecture"],
   technologies: {
     mobileApp: {
       platforms: ["Android", "iOS"],
