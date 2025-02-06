@@ -31,10 +31,10 @@ const Skopea: Semi = {
 
 <h3> About me! </h3>
 
-> 💻 &nbsp; Owner & Freelance Developer of Synetic Solutions, Let's connect! <br>
+> 💻 &nbsp; Owner & Freelance Developer of <b>Synetic Solutions</b>, Let's connect! <br>
 > 🌱 &nbsp; Exploring new technologies and developing software solutions. <br>
 > 🎓 &nbsp; Finished study of computer sience. <br>
-> 💎 &nbsp; Currently a Software Engineer at [Vellow](https://www.vellow.nl/). <br>
+> 💎 &nbsp; Currently a Software Engineer at [Vellow](https://www.vellow.nl/) & [Dyflexis](https://www.dyflexis.com/nl/) <br>
 > 💪️ &nbsp; Fitness Enthousiast. <br> 
 > 🎮 &nbsp; My greatest source of enjoyment and fulfillment comes from indulging in anime and gaming activities. <br>
 > ☕ &nbsp; In my opinion, a well-crafted cup of coffee has the potential to serve as the ultimate remedy for stress and tension. (I don't even drink coffee) <br>
