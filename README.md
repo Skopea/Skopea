@@ -69,7 +69,6 @@
 const Skopea = {
   name: "Semi",
   role: "Full Stack Developer",
-
   stack: [
     "PHP",
     "Symfony",
@@ -78,7 +77,6 @@ const Skopea = {
     "Next.js",
     "Vue.js"
   ],
-
   likes: [
     "Clean code",
     "Good UI",
@@ -86,14 +84,12 @@ const Skopea = {
     "Automation",
     "Building useful stuff"
   ],
-
   currentlyExploring: [
     "Software architecture",
     "Infrastructure",
     "Monitoring",
     "New web technologies"
   ],
-
   outsideOfCode: [
     "Calisthenics",
     "Gaming",
