@@ -23,19 +23,35 @@ def get(path):
         return json.loads(response.read().decode())
 
 
-# Get authenticated GitLab account
+def esc(value):
+    return html.escape(str(value))
+
+
+def format_number(value):
+    return f"{int(value):,}"
+
+
+def stat_tile(x, y, width, height, label, value, accent="#fca326"):
+    return f"""
+    <rect x="{x}" y="{y}" width="{width}" height="{height}" rx="10" fill="#161b22" stroke="#30363d" />
+    <rect x="{x}" y="{y}" width="4" height="{height}" rx="2" fill="{accent}" />
+    <text x="{x + 14}" y="{y + 18}" class="tile-label">{esc(label)}</text>
+    <text x="{x + 14}" y="{y + 40}" class="tile-value">{esc(format_number(value))}</text>
+    """
+
+
+# Authenticated GitLab user
 user = get("/user")
 user_id = user["id"]
 username = user["username"]
 
-# GitLab provides aggregate counts for the authenticated user
+# Aggregate GitLab counts
 counts = get(f"/users/{user_id}/associations_count")
-
 projects = counts.get("projects_count", 0)
 merge_requests = counts.get("merge_requests_count", 0)
 issues = counts.get("issues_count", 0)
 
-# Count push activity from GitLab's contribution-event history.
+# Recent event-based activity
 push_events = 0
 commits = 0
 active_projects = set()
@@ -44,8 +60,7 @@ page = 1
 
 while True:
     events = get(
-        f"/users/{urllib.parse.quote(username)}/events"
-        f"?per_page=100&page={page}"
+        f"/users/{urllib.parse.quote(username)}/events?per_page=100&page={page}"
     )
 
     if not events:
@@ -68,66 +83,55 @@ while True:
     page += 1
 
 
-def esc(value):
-    return html.escape(str(value))
+svg = f"""<svg width="495" height="230" viewBox="0 0 495 230" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#fc6d26" />
+            <stop offset="100%" stop-color="#fca326" />
+        </linearGradient>
+    </defs>
 
+    <style>
+        .title {{
+            font: 700 20px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+            fill: #ffffff;
+        }}
 
-svg = f"""<svg width="495" height="195" viewBox="0 0 495 195"
-xmlns="http://www.w3.org/2000/svg">
+        .subtitle {{
+            font: 500 13px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+            fill: #fca326;
+        }}
 
-<style>
-    .title {{
-        font: 600 17px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-        fill: #ffffff;
-    }}
+        .muted {{
+            font: 400 12px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+            fill: #8b949e;
+        }}
 
-    .label {{
-        font: 400 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-        fill: #c9d1d9;
-    }}
+        .tile-label {{
+            font: 500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+            fill: #8b949e;
+        }}
 
-    .value {{
-        font: 600 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-        fill: #ffffff;
-    }}
+        .tile-value {{
+            font: 700 20px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+            fill: #ffffff;
+        }}
+    </style>
 
-    .username {{
-        font: 400 12px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-        fill: #8b949e;
-    }}
-</style>
+    <rect x="0.5" y="0.5" width="494" height="229" rx="12" fill="#0d1117" stroke="#30363d" />
+    <rect x="24" y="22" width="110" height="6" rx="3" fill="url(#accentGradient)" />
 
-<rect
-    width="494"
-    height="194"
-    x="0.5"
-    y="0.5"
-    rx="6"
-    fill="#0d1117"
-    stroke="#30363d"
-/>
+    <text x="24" y="52" class="title">🦊 GitLab Activity</text>
+    <text x="24" y="72" class="subtitle">@{esc(username)}</text>
+    <text x="24" y="90" class="muted">Recent activity snapshot generated automatically</text>
 
-<text x="25" y="35" class="title">🦊 GitLab Stats</text>
-<text x="25" y="55" class="username">@{esc(username)}</text>
+    {stat_tile(24, 110, 141, 48, "Projects", projects)}
+    {stat_tile(177, 110, 141, 48, "Merge Requests", merge_requests)}
+    {stat_tile(330, 110, 141, 48, "Issues", issues)}
 
-<text x="25" y="88" class="label">Projects</text>
-<text x="220" y="88" class="value">{projects}</text>
-
-<text x="25" y="112" class="label">Merge Requests</text>
-<text x="220" y="112" class="value">{merge_requests}</text>
-
-<text x="25" y="136" class="label">Issues</text>
-<text x="220" y="136" class="value">{issues}</text>
-
-<text x="280" y="88" class="label">Recent commits</text>
-<text x="450" y="88" text-anchor="end" class="value">{commits}</text>
-
-<text x="280" y="112" class="label">Push events</text>
-<text x="450" y="112" text-anchor="end" class="value">{push_events}</text>
-
-<text x="280" y="136" class="label">Active projects</text>
-<text x="450" y="136" text-anchor="end" class="value">{len(active_projects)}</text>
-
+    {stat_tile(24, 170, 141, 48, "Recent commits", commits)}
+    {stat_tile(177, 170, 141, 48, "Push events", push_events)}
+    {stat_tile(330, 170, 141, 48, "Active projects", len(active_projects))}
 </svg>
 """
 
@@ -139,3 +143,5 @@ print(f"Projects: {projects}")
 print(f"Merge Requests: {merge_requests}")
 print(f"Issues: {issues}")
 print(f"Recent commits: {commits}")
+print(f"Push events: {push_events}")
+print(f"Active projects: {len(active_projects)}")
