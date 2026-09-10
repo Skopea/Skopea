@@ -100,11 +100,17 @@ const Skopea = {
 
 ---
 
-### 📊 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="./profile/stats.svg?v=3" height="170" alt="Skopea's GitHub Stats" />
-  <img src="./profile/languages.svg?v=3" height="170" alt="Skopea's Top Languages" />
+  <img src="./profile/stats.svg" height="170" alt="Skopea's GitHub Stats" />
+  <img src="./profile/languages.svg" height="170" alt="Skopea's Top Languages" />
+</p>
+
+## 🦊 GitLab Stats
+
+<p align="center">
+  <img src="./profile/gitlab-stats.svg" height="170" alt="Skopea's GitLab Stats" />
 </p>
 
 ---
