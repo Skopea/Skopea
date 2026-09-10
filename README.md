@@ -1,96 +1,79 @@
-<h2 align="center">Hey, I'm Skopea 👋</h2>
+<p align="center"><strong>Hey, I'm SKOPEA! 👋</strong></p>
 
 <p align="center">
   Full Stack Developer from the Netherlands 🇳🇱
 </p>
 
 <p align="center">
-  Mostly working with PHP, Symfony, TypeScript and React.
+  Mostly working with PHP, Symfony, TypeScript and React
 </p>
 
----
+## 👨‍💻 About me
 
-### 👨‍💻 About me
+> 💻 Software Engineer at **Vellow & Dyflexis** <br>
+> 🚀 Owner & Freelance Developer at **Synetic Solutions** <br>
+> 🎓 Computer Science graduate <br>
+> 🧠 Interested in software architecture, clean code and UI/UX <br>
+> 🔧 I like building, improving and occasionally rewriting things that annoy me <br>
+> 💪 Calisthenics athlete <br>
+> 🎮 Into gaming and anime <br>
+> ☕ Somehow still a developer without the coffee addiction <br>
 
-* 💻 Software Engineer at [Vellow](https://www.vellow.nl/) & [Dyflexis](https://www.dyflexis.com/nl/)
-* 🚀 Owner & Freelance Developer at **Synetic Solutions**
-* 🎓 Computer Science graduate
-* 🧠 Interested in software architecture, clean code and UI/UX
-* 🔧 I like building, improving and sometimes completely rewriting things that annoy me
-* 💪 Calisthenics athlete
-* 🎮 Into gaming and anime
-* ☕ Developer without the coffee addiction
+## 🛠️ Tech I work with
 
----
+### Backend
 
-### 🛠️ Stuff I work with
+<p>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+</p>
 
-**Backend**
+### Frontend
 
-`PHP` `Symfony` `REST APIs` `JWT` `PHPUnit` `MySQL` `MongoDB`
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+</p>
 
-**Frontend**
+### Tools & other stuff
 
-`TypeScript` `JavaScript` `React` `Next.js` `Vue.js` `HTML` `CSS`
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+</p>
 
-**UI**
+## 🚧 What I'm working on
 
-`Tailwind CSS` `Material UI` `Bootstrap`
+### 🔐 [Sycryptic](https://sycryptic.com/)
 
-**DevOps & Tools**
+A password manager I'm building with a focus on security, usability and a clean UI
 
-`Docker` `Git` `GitHub Actions` `CI/CD` `Vite` `Webpack` `Composer` `Yarn`
+## 📚 Currently interested in
 
-**Also worked with**
-
-`WordPress` `jQuery` `Cordova` `Azure Static Web Apps` `Home Assistant`
-
----
-
-### 🚀 Some things I've worked on
-
-* Full-stack web applications
-* REST APIs and authentication systems
-* Browser extensions for Chrome, Firefox and Edge
-* Password manager & security-related features
-* Dashboards, charts and data-heavy UIs
-* Automated testing with PHPUnit
-* Docker development environments
-* GitHub Actions and CI/CD pipelines
-* Refactoring and modernizing legacy code
-* UI/UX improvements and responsive interfaces
-* Home automation and infrastructure monitoring
-
----
-
-### 💻 In code form
-
-```ts id="lne9ev"
-const Skopea = {
-  name: "Semi",
-  role: "Full Stack Developer",
-  stack: [
-    "PHP",
-    "Symfony",
-    "TypeScript",
-    "React",
-    "Next.js",
-    "Vue.js"
+```ts
+const skopea = {
+  learning: [
+    "Software Architecture",
+    "System Design",
+    "Infrastructure & Monitoring",
+    "Better ways to build things",
+    "AI"
   ],
-  likes: [
-    "Clean code",
-    "Good UI",
-    "Software architecture",
-    "Automation",
-    "Building useful stuff"
-  ],
-  currentlyExploring: [
-    "Software architecture",
-    "Infrastructure",
-    "Monitoring",
-    "New web technologies"
-  ],
-  outsideOfCode: [
+  enjoys: [
+    "Building side projects",
+    "Refactoring questionable code",
     "Calisthenics",
     "Gaming",
     "Anime"
@@ -98,15 +81,13 @@ const Skopea = {
 };
 ```
 
----
-
-## 📈 Coding Stats
+## 📊 Coding Stats
 
 <p align="center">
-  <img src="./profile/stats.svg?v=5" height="170" alt="Skopea's GitHub Stats" />
-  <img src="./profile/languages.svg?v=5" height="170" alt="Skopea's Top Languages" />
+  <img src="./profile/stats.svg" height="170" alt="Skopea's GitHub Stats" />
+  <img src="./profile/languages.svg" height="170" alt="Skopea's Most Used Languages" />
 </p>
 
 <p align="center">
-  <img src="./profile/gitlab-stats.svg?v=5" height="190" alt="Skopea's GitLab Stats" />
+  <img src="./profile/gitlab-stats.svg" height="190" alt="Skopea's GitLab Stats" />
 </p>
