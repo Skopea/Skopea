@@ -1,7 +1,8 @@
 <p align="center"><strong>Hey, I'm SKOPEA! 👋</strong></p>
 
 <p align="center">
-  Full Stack Developer from the Netherlands 🇳🇱
+  Full Stack Developer from the Netherlands
+  <img src="https://flagcdn.com/20x15/nl.png" width="20" alt="Netherlands flag" />
 </p>
 
 <p align="center">
