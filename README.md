@@ -112,9 +112,3 @@ const Skopea = {
 <p align="center">
   <img src="./profile/gitlab-stats.svg?v=4" height="170" alt="Skopea's GitLab Stats" />
 </p>
-
----
-
-<p align="center">
-  ⭐ From <a href="https://github.com/Skopea"><b>Skopea</b></a>
-</p>
