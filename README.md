@@ -103,12 +103,8 @@ const Skopea = {
 ### 📊 GitHub Stats
 
 <p align="center">
-  <a href="https://github.com/Skopea">
-    <img
-      src="https://github-readme-stats.vercel.app/api?username=Skopea&show_icons=true&theme=codeSTACKr&count_private=true"
-      alt="Skopea's GitHub Stats"
-    />
-  </a>
+  <img src="./profile/stats.svg" height="170" alt="Skopea's GitHub Stats" />
+  <img src="./profile/languages.svg" height="170" alt="Skopea's Top Languages" />
 </p>
 
 ---
