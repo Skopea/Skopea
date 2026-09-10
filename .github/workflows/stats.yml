@@ -32,16 +32,22 @@ jobs:
           path: profile/languages.svg
           token: ${{ secrets.STATS_TOKEN }}
 
+      - name: Generate GitLab stats
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: python .github/scripts/gitlab_stats.py
+
       - name: Bust README image cache
         run: |
           VERSION="${{ github.run_number }}"
           sed -i -E "s#(profile/stats\.svg)(\?v=[0-9]+)?#\1?v=${VERSION}#g" README.md
           sed -i -E "s#(profile/languages\.svg)(\?v=[0-9]+)?#\1?v=${VERSION}#g" README.md
+          sed -i -E "s#(profile/gitlab-stats\.svg)(\?v=[0-9]+)?#\1?v=${VERSION}#g" README.md
 
       - name: Commit generated stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg README.md
-          git commit -m "Update GitHub stats" || exit 0
+          git commit -m "Update GitHub and GitLab stats" || exit 0
           git push
