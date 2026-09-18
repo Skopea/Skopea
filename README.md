@@ -16,9 +16,9 @@
 > 🎓 Computer Science graduate <br>
 > 🧠 Interested in software architecture, clean code and UI/UX <br>
 > 🔧 I like building, improving and occasionally rewriting things that annoy me <br>
-> 💪 Calisthenics athlete <br>
+> 💪 Calisthenics / Streetlifting athlete <br>
 > 🎮 Into gaming and anime <br>
-> ☕ Somehow still a developer without the coffee addiction <br>
+> ☕ Somehow still a developer without coffee addiction <br>
 
 ## 🛠️ Tech I work with
 
