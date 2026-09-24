@@ -63,13 +63,13 @@
     <rect x="24" y="170" width="141" height="48" rx="10" fill="#161b22" stroke="#30363d" />
     <rect x="24" y="170" width="4" height="48" rx="2" fill="#fca326" />
     <text x="38" y="188" class="tile-label">Recent commits</text>
-    <text x="38" y="210" class="tile-value">707</text>
+    <text x="38" y="210" class="tile-value">544</text>
     
     
     <rect x="177" y="170" width="141" height="48" rx="10" fill="#161b22" stroke="#30363d" />
     <rect x="177" y="170" width="4" height="48" rx="2" fill="#fca326" />
     <text x="191" y="188" class="tile-label">Push events</text>
-    <text x="191" y="210" class="tile-value">63</text>
+    <text x="191" y="210" class="tile-value">57</text>
     
     
     <rect x="330" y="170" width="141" height="48" rx="10" fill="#161b22" stroke="#30363d" />
