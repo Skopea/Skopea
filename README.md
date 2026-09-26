@@ -85,10 +85,10 @@ const skopea = {
 ## 📊 Coding Stats
 
 <p align="center">
-  <img src="./profile/stats.svg?v=20" height="170" alt="Skopea's GitHub Stats" />
-  <img src="./profile/languages.svg?v=20" height="170" alt="Skopea's Most Used Languages" />
+  <img src="./profile/stats.svg?v=21" height="170" alt="Skopea's GitHub Stats" />
+  <img src="./profile/languages.svg?v=21" height="170" alt="Skopea's Most Used Languages" />
 </p>
 
 <p align="center">
-  <img src="./profile/gitlab-stats.svg?v=20" height="190" alt="Skopea's GitLab Stats" />
+  <img src="./profile/gitlab-stats.svg?v=21" height="190" alt="Skopea's GitLab Stats" />
 </p>
