@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Semi Cayci&#39;s GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 2, Total Commits  (last year) : 1372, Total PRs: 443, Total Issues: 74, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 2, Total Commits  (last year) : 1382, Total PRs: 445, Total Issues: 74, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 101.97884570454323;
+        stroke-dashoffset: 101.94962599131993;
       }
     }
   
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >443</text>
+      >445</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
